@@ -6,7 +6,7 @@ function TablePagination({
   total,
   setCurrentPage,
 }) {
-  const [inputNumber, setInputNumber] = useState(1);
+  const [inputNumber, setInputNumber] = useState(0);
 
   const nextAction = () => {
     if (currentPage + 1 <= total) setCurrentPage(currentPage + 1);
@@ -41,7 +41,7 @@ function TablePagination({
           placeholder="Jump to page"
         />{" "}
         &nbsp;
-        <button disabled={inputNumber < 0 || inputNumber > total} type="submit">
+        <button disabled={inputNumber <= 0 || inputNumber > total} type="submit">
           Submit
         </button>
       </form>
