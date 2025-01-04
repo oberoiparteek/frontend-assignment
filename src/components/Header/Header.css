@@ -1,0 +1,9 @@
+.header {
+    padding: 0.7em 3em;
+    background-color: #efefef;
+}
+
+.header span {
+    font-size: 2em;
+    font-family: var(--font-family);
+}

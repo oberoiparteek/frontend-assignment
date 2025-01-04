@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: #dfdfdf;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: black; 
+  color: white;  
+  border: none;  
+  padding: 10px 20px;  
+  font-size: 16px; 
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover { 
+  box-shadow: 0 0 15px #666;  
+}
+
+button:disabled {
+  background-color: #666; 
+  color: #ccc;  
+  cursor: not-allowed;  
+  opacity: 0.6; 
+}
+

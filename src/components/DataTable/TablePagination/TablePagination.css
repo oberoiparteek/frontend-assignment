@@ -1,0 +1,11 @@
+.table-pagination {
+    display: grid;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.table-pagination .actions {
+    button {
+        margin: 10px 30px;
+    }
+}

@@ -1,0 +1,33 @@
+:root {
+    --border-cell: 1px solid #adabab;
+}
+
+.error {
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.data-table-wrapper {
+    margin-top: 3em;
+}
+
+.data-table-wrapper .data-table {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.data-table-wrapper .data-table .cell {
+    border: var(--border-cell);
+    padding: 5px 10px;
+}
+
+.data-table-wrapper .data-table .cell:last-child {
+    border-right: var(--border-cell);
+}

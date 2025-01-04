@@ -1,0 +1,8 @@
+.table-row {
+    display: contents;
+}
+
+.table-row .no-data {
+    grid-column: span 3;
+    text-align: center;
+}
